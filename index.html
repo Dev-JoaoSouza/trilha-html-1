@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr>
+
+    <h2>Índice:</h2>
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#html">Como é uma estrutura básica de um  <strong>HTML</strong>?</a></li>
+        <li><a href="#tags">O que são tags?</a></li>
+        <li><a href="#tags-texto">Diferentes tags de texto</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+    <br>
+    <h2 id="historia">História dos computadores</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>As primeiras ferramentas de cálculo, como o ábaco, surgiram há milênios, permitindo que civilizações antigas realizassem operações matemáticas complexas.</p>
+    <p>No século XIX, Charles Babbage concebeu a Máquina Analítica, considerada o primeiro computador mecânico programável. Embora nunca tenha sido totalmente construída, sua ideia revolucionou o pensamento sobre o cálculo automático.</p>
+    <p>A Segunda Guerra Mundial acelerou o desenvolvimento dos computadores. Máquinas como o ENIAC (Eletronic Numerical Integrator and Computer) foram criadas para realizar cálculos balísticos complexos. Essas primeiras máquinas eram enormes, consumiam muita energia e utilizavam válvulas eletrônicas.</p>
+    <p>A invenção do transistor na década de 1940 e dos circuitos integrados na década de 1950 revolucionaram a eletrônica. Os computadores se tornaram menores, mais rápidos e mais eficientes.</p>
+    <p>A década de 1970 marcou o surgimento dos microcomputadores, como o Altair 8800. Esses computadores eram acessíveis a um público mais amplo e deram origem à indústria de software.</p>
+    <p>A partir da década de 1990, a internet popularizou o uso dos computadores e transformou a forma como nos comunicamos, trabalhamos e nos divertimos. A World Wide Web, criada por Tim Berners-Lee, tornou a informação globalmente acessível.</p>
+    <p>Nos dias atuais, os computadores estão presentes em praticamente todos os aspectos de nossas vidas. Smartphones, tablets e assistentes virtuais são exemplos da evolução contínua da computação. A inteligência artificial está transformando diversas áreas, desde a medicina até a indústria automotiva.</p>
+    <br>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Clients são programas de software que faz solicitações a um servidor web e recebe respostas.</p>
+    <p>O navegador web que você usa para acessar páginas da internet é um exemplo de client.</p>
+    <p>Quando você digita um endereço web (URL) na barra de endereço do seu navegador e pressiona Enter, seu navegador (client) envia uma solicitação ao servidor web onde a página está hospedada.</p>
+    <p>O servidor processa a solicitação e envia a página de volta ao seu navegador, que então a exibe na tela.</p>
+    <br>
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Servers, em termos simples, é um computador ou software que fornece serviços a outros computadores, conhecidos como clients. Imagine um servidor como um garçom em um restaurante: ele recebe pedidos (solicitações) dos clients (seus dispositivos) e entrega a comida (dados ou informações) solicitada.</p>
+    <h4>Tipos de servidores:</h4>
+    <ol>
+        <li><strong>Servidores web:</strong> Hospedam sites e aplicativos web, respondendo a solicitações de navegadores.</li>
+        <li><strong>Servidores de email:</strong> Gerenciam o envio e recebimento de emails.</li>
+        <li><strong>Servidores de arquivos:</strong> Armazenam e compartilham arquivos entre usuários em uma rede.</li>
+        <li><strong>Servidores de banco de dados:</strong> Armazenam e gerenciam grandes quantidades de dados estruturados.</li>
+        <li><strong>Servidores de jogos:</strong> Hospedam jogos online e permitem que múltiplos jogadores se conectem e joguem juntos.</li>
+    </ol>
+    <br>
+    <h2 id="html">Como é uma estrutura básica de um <strong>HTML</strong>?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Um documento <strong>HTML</strong> (<i>HyperText Markup Language</i>) possui uma estrutura bem definida, que serve como base para a construção de todas as páginas da web. Essa estrutura garante que os navegadores interpretem corretamente o código e exibam o conteúdo de forma adequada.</p>
+    <h4>A estrutura básica de um documento HTML é composta pelas seguintes tags:</h4>
+    <ul>
+        <li><strong><</strong><strong>!DOCTYPE html>:</strong> Essa declaração informa ao navegador o tipo de documento que está sendo processado.</li>
+        <li><strong><</strong><strong>html><</strong><strong>/html>:</strong> Essa tag engloba todo o conteúdo HTML da página.</li>
+        <li><strong><</strong><strong>head><</strong><strong>/head>:</strong> A seção "cabeçalho" contém informações sobre a página que não são exibidas diretamente, como o título, metadados e links para arquivos CSS e JavaScript.</li>
+        <li><strong><</strong><strong>boby><</strong><strong>/body>:</strong> A seção "corpo" contém o conteúdo visível da página, como texto, imagens, vídeos, etc.</li>
+    </ul>
+    <br>
+    <h2 id="tags">O que são tags?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p><strong>Tags HTML</strong> são como marcadores ou rótulos que definem a estrutura e o conteúdo de uma página web.</p>
+    <p>Elas informam ao navegador como interpretar e exibir o texto, imagens, vídeos e outros elementos na tela.</p>
+    <p>Imagine que você está escrevendo um livro. As tags HTML seriam como os sinais de pontuação, os títulos dos capítulos e as indicações de que um trecho é um parágrafo, uma lista ou uma citação. Elas dão sentido ao texto e dizem ao leitor como ele deve ser interpretado.</p>
+    <br>
+    <h2 id="tags-texto">Diferentes tags de texto</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p><strong>Tags de texto</strong> em HTML são utilizadas para definir como o texto será exibido em uma página web. Elas permitem que você formate o texto de diversas maneiras, como torná-lo negrito, itálico, sublinhado, ou até mesmo aplicar um espaçamento diferente entre as letras.</p>
+    <h4>Exemplos de algumas tags de texto:</h4>
+    <ol>
+        <li><strong><</strong><strong>p> :</strong> Define um parágrafo.</li>
+        <li><strong><</strong><strong>h1> a <strong><</strong></strong><strong>h6> :</strong> Definem títulos de diferentes níveis.</li>
+        <li><strong><</strong><strong>b> :</strong> Torna o texto <b>negrito</b>.</li>
+        <li><strong><</strong><strong>i> :</strong> Torna o texto <i>itálico</i>.</li>
+        <li><strong><</strong><strong>u> :</strong> Trona o texto <u>sublinhado</u>.</li>
+        <li><strong><</strong><strong>mark> :</strong> Marca o texto com um destaque <mark>visual</mark> (geralmente um fundo amarelo).</li>
+        <li><strong><</strong><strong>small> :</strong> Diminui o tamanho da <small>fonte</small>.</li>
+        <li><strong><</strong><strong>sub> :</strong> Coloca o texto em <sub>subscrito</sub>.</li>
+        <li><strong><</strong><strong>sup> :</strong>Coloca o texto em <sup>sobrescrito</sup>.</li>
+        <li><strong><</strong><strong>del> :</strong> Marca o texto como <del>deletado</del> (geralmente riscado).</li>
+    </ol>
+    <br>
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>As listas são elementos fundamentais na estruturação de conteúdos em páginas web. Elas servem para agrupar itens de forma organizada e hierárquica. No HTML, temos dois tipos principais de listas: <b>ordenadas</b> e <b>não ordenadas</b>não ordenadas.</p>
+    
+    <h4>Listas Não Ordenadas (<strong><</strong><strong>ul></strong>)</h4>
+    <p>Os itens da lista não possuem uma ordem específica ou hierárquica. Eles são geralmente marcados com um símbolo, como um ponto ou um círculo.</p>
+    <p>São ideais para listas de itens onde a ordem não é importante, como uma lista de ingredientes, hobbies ou itens a serem comprados.</p>
+    
+    <h4>Listas Ordenadas (<strong><</strong><strong>ol></strong>)</h4>
+    <p>Os itens da lista possuem uma ordem específica e são numerados. A numeração pode ser numérica (1, 2, 3), alfabética (a, b, c) ou romana (i, ii, iii).</p>
+    <p>São ideais para listas onde a ordem é crucial, como passos de um tutorial, rankings ou cronologias.</p>
+
+    <br>
+    <h2 id="referencias">Referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <ul>
+        <li>Aula de HTML & CSS - <a href="https://github.com/AndersonVenson/Site-Aula" target="_blank">https://github.com/AndersonVenson/Site-Aula</a></li>
+        <li>Mozilla - <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">https://developer.mozilla.org/pt-BR/docs/Web/HTML</a></li>
+        <li>HTML Tutorial - <a href="https://www.w3schools.com/html/" target="_blank">https://www.w3schools.com/html/</a></li>
+    </ul>
+
+</body>
+</html>
